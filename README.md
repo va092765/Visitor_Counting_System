@@ -5,19 +5,19 @@ An embedded C project for the **LPC2129 (ARM7TDMI-S)** microcontroller that coun
 ## Features
 
 - Real-time entry/exit detection using external interrupts (EINT0 / EINT1)
-- Live occupancy count shown on a 16x2 LCD (4-bit mode)
-- Cumulative "total entered" count recallable via a push switch
+- Live occupancy count shown on a 16x2 LCD (8-bit mode)
+- Cumulative "IN and OUT" count recallable via a push switch
 - LED indicator that reflects whether anyone is currently inside
-- Millisecond timebase from Timer0 for debounce/delay handling
+- Millisecond and Seconds timebase from Timer0 for debounce/delay handling
 
 ## Hardware
 
 | Component | Function |
 |---|---|
 | LPC2129 dev board | Core MCU |
-| IR sensor 1 | Entry detection — EINT0 (P0.1) |
-| IR sensor 2 | Exit detection — EINT1 (P0.3) |
-| 16x2 LCD (4-bit mode) | Displays live count / entered count |
+| IR sensor 1 | Entry detection — EINT0 (P0.16) |
+| IR sensor 2 | Exit detection — EINT1 (P0.14) |
+| 16x2 LCD (8-bit mode) | Displays live count / entered count |
 | Push switch | Shows cumulative entered count on demand |
 | LED | ON while occupancy > 0, OFF when empty |
 
@@ -44,8 +44,4 @@ An embedded C project for the **LPC2129 (ARM7TDMI-S)** microcontroller that coun
 
 ## Toolchain
 
-Built with Keil µVision for the LPC2129 (ARM7). Flash via the onboard ISP header.
-
-## License
-
-MIT
+Built with Keil µVision for the LPC2129 (ARM7). Flash-Magic
