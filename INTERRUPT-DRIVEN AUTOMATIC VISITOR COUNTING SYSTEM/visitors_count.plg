@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\v25ce7v2\INTERRUPT-DRIVEN AUTOMATIC VISITOR COUNTING SYSTEM\visitors_count.uvproj
+Project File Date:  07/10/2026
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling visitors_count.c...
+delay.h(19): warning:  #1-D: last line of file ends without a newline
+delay.h:   }
+delay.h:    ^
+lch.h(87): warning:  #1-D: last line of file ends without a newline
+lch.h:   }
+lch.h:    ^
+visitors_count.c(73): error:  #20: identifier "entry" is undefined
+visitors_count.c:     entry  _count--;
+visitors_count.c:     ^
+visitors_count.c(73): error:  #65: expected a ";"
+visitors_count.c:     entry  _count--;
+visitors_count.c:                  ^
+visitors_count.c: visitors_count.c: 2 warnings, 2 errors
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling visitors_count.c...
+delay.h(19): warning:  #1-D: last line of file ends without a newline
+delay.h:   }
+delay.h:    ^
+lch.h(87): warning:  #1-D: last line of file ends without a newline
+lch.h:   }
+lch.h:    ^
+lch.h: visitors_count.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=4540 RO-data=32 RW-data=16 ZI-data=1256  
+FromELF: creating hex file...
+"visitors_count.axf" - 0 Error(s), 2 Warning(s).

@@ -1,0 +1,6 @@
+Dependencies for Project 'visitors_count', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4BB1C206)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\KeilARM\ARM\INC" -I "C:\KeilARM\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\visitors_count.c)(0x6A54B421)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\KeilARM\ARM\INC" -I "C:\KeilARM\ARM\INC\Philips" -o "visitors_count.o" --omf_browse "visitors_count.crf" --depend "visitors_count.d")
+I (lch.h)(0x6A521A74)
+I (C:\KeilARM\ARM\INC\Philips\LPC21XX.H)(0x4BB1C2C8)
+I (delay.h)(0x6A521A9F)
